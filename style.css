@@ -1,16 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
-    background-color: #49111c;
+    background-color: #5171A5;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+/* Heading */
+
+.aligning-div{
+    height: 15vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{
     color: #F2F4F3;
+    font-size: 5vmin;
 }
 
+/* Game Box/Conatiner */
+
 .container{
-    height: 70vh;
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 10vmin;
+    background-color: #49111C;
+    color: wheat;
+}
+
+.box:hover{
+    background-color: #350710;
+}
+
+/* Reset Button */
+
+
+#reset-butn{
+    text-align: center;
+    height: 5vmin;
+    width: 15vmin;
+    background-color: #0B3948;
+    color: #A9927D;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.button-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
